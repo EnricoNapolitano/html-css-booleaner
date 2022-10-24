@@ -18,3 +18,20 @@ header {
     text-shadow: 2px 2px #b4b4b4;
     font-size: 50px;
 }
+
+address {
+    font-style: normal;
+}
+
+.address-title {
+    color: rgb(128,128,128);
+    font-size: 25px;
+}
+
+#author {
+    color: rgb(60,180,231);
+}
+
+#date {
+    font-size: 15px;
+}
