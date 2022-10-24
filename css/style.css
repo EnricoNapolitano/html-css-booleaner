@@ -1,0 +1,20 @@
+header {
+    background-color: rgb(78,160,255);
+    height: 125px;
+    background-image: url('../img/pattern.png');
+    background-size: 400px;
+}
+
+
+#the-in-title {
+    color: white;
+    text-shadow: 2px 2px #b4b4b4;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+#booleaner-in-title {
+    color: white;
+    text-shadow: 2px 2px #b4b4b4;
+    font-size: 50px;
+}
