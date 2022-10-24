@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(78,160,255);
+    height: 125px;
+    background-image: url('../img/pattern.png');
+    background-size: 400px;
+    position: relative;
+}
+
+#container, #the-booleaner {
+    width: 75%;
+    margin: auto;
+}
+
+.main-title {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#the-in-title {
+    color: white;
+    text-shadow: 2px 2px #b4b4b4;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+#booleaner-in-title {
+    color: white;
+    text-shadow: 2px 2px #b4b4b4;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+address {
+    font-style: normal;
+}
+
+.address-title {
+    color: rgb(128,128,128);
+    font-size: 25px;
+}
+
+#author {
+    color: rgb(60,180,231);
+}
+
+#date {
+    display: block;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.paragraph {
+    margin-top: 1em;
+}
+
+.enlighted {
+    background-color: yellow;
+}
+
+ul {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+table {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+.odd-row {
+    background-color: rgb(177, 229, 242);
+}
+
+.cell-first-colomn, .cell-second-colomn {
+    width: 25%;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 2em;
+    color: rgb(128,128,128)
+}
+
+article {
+    display: block;
+}
+
+.related-post {
+    margin-top: 1em;
+    margin-bottom: 10px;
+    display: block;
+}
