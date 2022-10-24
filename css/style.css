@@ -8,6 +8,7 @@ header {
     height: 125px;
     background-image: url('../img/pattern.png');
     background-size: 400px;
+    position: relative;
 }
 
 .main-title {
@@ -19,13 +20,17 @@ header {
     color: white;
     text-shadow: 2px 2px #b4b4b4;
     font-size: 25px;
-    margin-top: 90px;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 30px;
 }
 
 #booleaner-in-title {
     color: white;
     text-shadow: 2px 2px #b4b4b4;
     font-size: 50px;
+    position: absolute;
+    margin-top: 50px;
 }
 
 address {
