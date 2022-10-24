@@ -63,6 +63,16 @@ ul {
 table {
     margin-top: 2em;
     margin-bottom: 2em;
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(32, 169, 229);
+    color: white;
+}
+
+.odd-row {
+    background-color: rgb(177, 229, 242);
 }
 
 h3 {
