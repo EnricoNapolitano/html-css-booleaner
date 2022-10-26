@@ -1,63 +1,41 @@
+/* CSS Reset */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* Generics */
 header {
     background-color: rgb(78,160,255);
     height: 125px;
+    line-height: 125px;
     background-image: url('../img/pattern.png');
     background-size: 400px;
     position: relative;
 }
 
-.main-title {
+h1 {
+    font-size: 38px;
+}
+
+h2 {
     margin-top: 2em;
-    margin-bottom: 2em;
+    color: rgb(128,128,128)
 }
 
-#the-in-title {
+h3 {
     color: white;
-    text-shadow: 2px 2px #b4b4b4;
-    font-size: 25px;
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 30px;
-}
-
-#booleaner-in-title {
-    color: white;
-    text-shadow: 2px 2px #b4b4b4;
-    font-size: 50px;
-    position: absolute;
-    margin-top: 50px;
+    font-size: 1.5em;
+    padding: 10px;
 }
 
 address {
     font-style: normal;
 }
 
-.address-title {
-    color: rgb(128,128,128);
-    font-size: 25px;
-}
-
-#author {
-    color: rgb(60,180,231);
-}
-
-#date {
-    display: block;
-    font-size: 15px;
-    margin-top: 0px;
-}
-
-.paragraph {
-    margin-top: 1em;
-}
-
-.enlighted {
-    background-color: yellow;
+figure {
+    margin-top: 30px;
 }
 
 ul {
@@ -69,7 +47,48 @@ table {
     margin-top: 2em;
     margin-bottom: 2em;
     width: 100%;
+    border-collapse: collapse;
+    text-align: left;
 }
+
+article {
+    padding-bottom: 100px;
+}
+
+/* utilities */
+.container {
+    margin: 0 15%;
+}
+
+/* header: banner in alto */
+#logo {
+    height: 90px;
+    vertical-align: middle;
+}
+
+/* testata principale + foto */
+.header-title {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.address-title {
+    font-size: 25px;
+    color: rgb(128,128,128);
+}
+
+#author {
+    color: rgb(60,180,231);
+}
+
+
+#date {
+    display: block;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+/* tabella */
 
 thead {
     background-color: rgb(32, 169, 229);
@@ -80,22 +99,21 @@ thead {
     background-color: rgb(177, 229, 242);
 }
 
-.cell-first-colomn, .cell-second-colomn {
-    width: 25%;
-    text-align: center;
+.last-cell {
+    width: 50%;
 }
 
-h3 {
-    margin-top: 2em;
-    color: rgb(128,128,128)
+/* articoli correlati */
+#related-article-monitor {
+    background-image: url('../img/monitor.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
 }
 
-article {
-    display: block;
-}
-
-.related-post {
-    margin-top: 1em;
-    margin-bottom: 10px;
-    display: block;
+#related-article-graph {
+    background-image: url('../img/graph.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
 }
